@@ -1,6 +1,8 @@
 image:
+  - Visual Studio 2022
   - Ubuntu
   - macOS
+
 
 build_script:
   - ps: npm i

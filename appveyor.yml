@@ -4,4 +4,4 @@ image:
 
 build_script:
   - ps: npm i
-  - npm run dev
+  - npm run build

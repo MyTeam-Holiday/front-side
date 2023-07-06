@@ -1,5 +1,5 @@
 # myteam.holiday
-front repo
+front repo!
 
 prod domain: [https://myteam.holiday](https://myteam.holiday)
 

@@ -1,11 +1,27 @@
-<script>
-  import { onDestroy } from 'svelte';
-  import { User } from '../stores/userStore';
-  import { Logout } from '../services/authenticationService';
+<!-- <script>
+    import { _ } from '../../services/i18n';
+</script>
 
-  import NavMenu from './NavMenu.svelte';
-  import ModalWindow from './ModalWindow.svelte';
-  import LoginForm from './LoginForm.svelte';
+<header class="hero">
+    <div class="hero-body">
+        <div class="contiainer">
+            <h1 class="title">{$_('app.title')}</h1>
+
+            <h2 class="subtitle">{$_('app.subtitle')}</h2>
+        </div>
+    </div>
+</header> -->
+<script>
+  import { _ } from '../../services/i18n';
+  import { Link } from "svelte-routing";
+  import "../../../node_modules/materialize-css/dist/css/materialize.min.css"
+  import { onDestroy } from 'svelte';
+  import { User } from '../../stores/userStore';
+  import { Logout } from '../../services/authenticationService';
+
+  import NavMenu from 'navMenu.svelte';
+  import ModalWindow from '../pages/modalWindow.svelte';
+  import LoginForm from '../pages/loginForm.svelte';
 
   let showModal = false;
 

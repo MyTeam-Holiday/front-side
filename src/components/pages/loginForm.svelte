@@ -1,5 +1,5 @@
 <script>
-  import { User } from '../stores/userStore';
+  import { User } from '../../stores/userStore';
   import {
     useForm,
     validators,
